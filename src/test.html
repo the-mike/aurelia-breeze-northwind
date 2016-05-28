@@ -1,0 +1,16 @@
+<template>
+   <require from="common/form/text-input"></require>
+   <require from="common/form/select-input"></require>
+   <require from="common/form/datepicker-input"></require>
+
+    <div class="row">
+      <text-input s-width="12" m-width="6" bind-attribute.two-way="model.firstName"></text-input>
+      <text-input s-width="12" m-width="6" bind-attribute.bind="model.fullName"></text-input>
+      <select-input bindAttribute.two-way="model.olfId" options.bind="availibleOlf" label="Hello"></select-input>
+      <datepicker-input s-width="12" m-width="6" bind-attribute.two-way="model.date" label="Hello" name='Hello'></datepicker-input>
+    </div>
+    <div class="row">
+      <input type="button" click.delegate="clickMe()" class="btn" value="Click me"></input>
+    </div>
+
+</template>

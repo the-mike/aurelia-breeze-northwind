@@ -36,6 +36,7 @@
     "gulp-yuidoc": "^0.1.2",
     "jasmine-core": "^2.1.3",
     "jshint-stylish": "^1.0.0",
+    "jspm": "^0.16.35",
     "karma": "^0.12.28",
     "karma-babel-preprocessor": "^5.2.1",
     "karma-chrome-launcher": "^0.1.7",
@@ -50,7 +51,7 @@
   },
   "jspm": {
     "dependencies": {
-      "Dogfalo/materialize": "github:Dogfalo/materialize@0.97.0",
+      "Dogfalo/materialize": "github:Dogfalo/materialize@^0.97.6",
       "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.17.0",
       "aurelia-breeze": "github:jdanyow/aurelia-breeze@^0.9.0",
       "aurelia-dependency-injection": "github:aurelia/dependency-injection@^0.10.1",

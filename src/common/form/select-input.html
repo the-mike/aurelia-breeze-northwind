@@ -1,0 +1,9 @@
+<template>
+  <div class="input-field col s${sWidth} m${mWidth}">
+    <select name="${name}" value.bind="bindAttribute" id="${name}" materialize="select">
+      <option selected></option>
+      <option repeat.for="option of options" value.bind="option.id">${option.name}</option>
+    </select>
+    <label for="${name}" materialize>${label}</label>
+  </div>
+</template>
